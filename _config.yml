@@ -1,17 +1,17 @@
 # Site settings
-title: Website Title
-description: Website short description
+title: 水星记
+description: 叶晓微的博客
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://yk-liu.github.io"  
+url: "https://smileye-v.github.io"  
 
 
 # GitHub User settings
-username: Username
-github_username: github_username
-user_description: user_description
+username: meimaolu
+github_username: Smileye-v
+user_description: 一个菜鸡
 user_title: user_title
-email: 
+email: meimaolu@163.com
 
 # Blog Author settings
 author:
