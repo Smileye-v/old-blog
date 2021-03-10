@@ -1,0 +1,32 @@
+---
+layout: home
+---
+<div class="user-details">
+<h2> 关于我和这个网站 </h2>
+<p style="text-align: justify;">我是深圳信息职业技术学院软件学院软件技术专业的一名学生。我建立了这个网站（<a href="{{}}">此处为网站源代码</a>），用来放置我的一些个人项目和学习博客。欢迎你对我的贴子发表评论和提出建议，这个网站还会不断修改。您可以在我的简历页面了解关于我的更多信息。</p>
+<div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
+	<h3> 网站的来访者 </h3>
+	{% include clustrmap.html style="js" %}
+	<p> <small> 如果您没有看到地图，请禁用广告屏蔽并刷新 </small></p>
+</div>
+</div>
+<div class="permlinks">
+<h2>最近的帖子</h2>
+<dl>
+	{% for post in site.posts limit:3 %}
+	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
+	{% if post.description %}
+ <dd style="text-align: justify">{{ post.description | markdownify }}
+    </dd>
+	{% endif %}
+	{% endfor %}
+	<p>... <a href="/blog">所有帖子列表</a> </p>
+</dl>
+
+<h2>正在学习的知识</h2>
+<ul>
+	<li>Vue2.0</li>
+	<li>个人博客搭建</li>
+</ul>
+
+</div >
