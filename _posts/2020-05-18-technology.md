@@ -11,9 +11,9 @@ description: 在使用Java Swing做程序时，使用MouseMotionListener的mouse
 
 在使用Java Swing做程序时，使用MouseMotionListener的mousedragged鼠标事件，但拖动时，元素位置闪烁变化。
 
-<img src="https://img-blog.csdnimg.cn/20200518145708958.png">
-
-输出了位置数值查看发现位置会往左上角* **“瞬移”**. * 。
+<img src="https://img-blog.csdnimg.cn/20200518145708958.png" align="left">
+<div style="clear: both;"></div>
+输出了位置数值查看发现位置会往左上角**“瞬移”**。
 
 ```js
 import java.awt.event.MouseMotionListener;
@@ -28,7 +28,7 @@ public void mouseDragged(MouseEvent e) {
 }
 ```
 
-# 解决方法
+## 解决方法
 
 因为我用的是awt的组件,需要使用双缓冲来避免画面的抖动。修改后的代码如下:
 

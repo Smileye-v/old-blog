@@ -1,3 +1,13 @@
+# Posts
+
+The posts are at different status.
+
+| Status    | Meaning                                                      |
+| --------- | ------------------------------------------------------------ |
+| Completed | This post is considered completed, but I might edit it when I came up with something new. |
+| Writing   | This post is being actively edited.                          |
+| Paused    | This post is considered of low priority. I will come back to this post later. |
+| Archived  | This post is outdated and I probably won't update it anymore. |
 
 # About this website
 
@@ -18,3 +28,7 @@ This website (source code [here](https://github.com/yk-liu/yk-liu.github.io)) us
 | [comment](https://commentit.io)                              | Post                                            | [APGL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)       |
 | [404 T-rex game](https://github.com/wayou/t-rex-runner)      | 404 page                                        | from [Chromium source code](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package), [license](https://chromium.googlesource.com/chromium/src.git/+/master/LICENSE) |
 | [Encryption](https://github.com/robinmoisson/staticrypt)     | Secret Pages                                    | [MIT](http://opensource.org/licenses/MIT)                    |
+
+# Contact
+
+The best way to reach me is via email: $meimaolu$ @ $163.com$
