@@ -1,6 +1,6 @@
 ---
 title: Java mousedragged事件时控件闪烁
-commentable: true
+commentable: flase
 Edit: 2020-05-18
 mathjax: true
 mermaid: true
