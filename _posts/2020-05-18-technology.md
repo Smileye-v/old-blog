@@ -28,7 +28,7 @@ public void mouseDragged(MouseEvent e) {
 }
 ```
 
-<h2> 解决方法 </h2>
+# 解决方法
 
 因为我用的是awt的组件,需要使用双缓冲来避免画面的抖动。修改后的代码如下:
 
