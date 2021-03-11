@@ -1,4 +1,4 @@
-<h2> Comments </h2>
+<h2> 评论 </h2>
    <hr>
 {% if page.commentable == true %}
 	{% if page.comments %}
@@ -18,13 +18,13 @@
 		</div>
 	{% else %}
 		{% if page.protected == true %}
-			<h6 style="color:#34495e;margin-bottom: auto;" >&#128517; Comments on this page are now protected.</h6>
+			<h6 style="color:#34495e;margin-bottom: auto;" >&#128517; 此页面上的评论现已受保护。</h6>
 		{% else %}
-			<h6 style="color:#34495e;margin-bottom: auto;"> Be the first one to comment on this page!</h6>
+			<h6 style="color:#34495e;margin-bottom: auto;"> 成为第一个在此页面发表评论的人！</h6>
 		{% endif %}
 	{% endfor %}
 {% else %}
-		<h6 style="color:#34495e;margin-bottom: auto;">&#128517; Commenting is disabled on this post.</h6>
+		<h6 style="color:#34495e;margin-bottom: auto;">&#128517; 此帖子已禁用评论。</h6>
 {% endif %}
 
 {% if page.protected == false %}
