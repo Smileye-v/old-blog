@@ -31,4 +31,4 @@ This website (source code [here](https://github.com/yk-liu/yk-liu.github.io)) us
 
 # Contact
 
-The best way to reach me is via email: meimaolu @$163.com
+The best way to reach me is via email: meimaolu @163.com
